@@ -1,5 +1,9 @@
 Question 1: How do you inspect all environment variables in Python?
-#!/usr/bin/env python3 this will tell what are the variables in python.
+os.environ
+We can print all the environment variables using os.environ
+Example:
+print(json.dumps(dict(os.environ),indent=2))
+
 
 Question 2: What environment variable contains the query parameter data?
 QUERY_STRING
